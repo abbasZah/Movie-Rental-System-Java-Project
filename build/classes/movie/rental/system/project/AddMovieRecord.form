@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JComboBox" name="jComboBox2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="P_Head1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="Container" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="B_SaveRecord" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="B_Clear" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="Back_Button" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="P_Head1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="Container" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Back_Button" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="B_SaveRecord" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="B_Clear" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="P_Head1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                  <Component id="jLabel7" pref="335" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="jLabel7" min="-2" pref="47" max="-2" attributes="0"/>
+                  <EmptySpace pref="49" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/movie/rental/system/project/Add List_32px.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Add a Movie Record"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="Back_Button">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/movie/rental/system/project/Go Back_24px.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Back_ButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="Container">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="L_Copies" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jTextField5" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="L_Name" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="L_Year" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="L_Stars" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="L_Category" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jTextField4" pref="120" max="32767" attributes="0"/>
+                                      <Component id="jTextField3" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="YearJ" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="FamousStarJ" pref="0" max="32767" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="CategoryJ" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="jTextField1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="B_MoreStars" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L_Name" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L_Year" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="YearJ" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jTextField3" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="L_Stars" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="B_MoreStars" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FamousStarJ" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L_Category" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CategoryJ" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L_Copies" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="L_Name">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Name of Movie *"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="L_Year">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Year of Release *"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="L_Stars">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Stars"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="L_Category">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Category"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="L_Copies">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Number of Copies *"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField4">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField5">
+        </Component>
+        <Component class="javax.swing.JButton" name="B_MoreStars">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Add More"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_MoreStarsActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="FamousStarJ">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="31">
+                <StringItem index="0" value="Select"/>
+                <StringItem index="1" value="Salman Khan"/>
+                <StringItem index="2" value="Shah Rukh Khan"/>
+                <StringItem index="3" value="Aamir Khan"/>
+                <StringItem index="4" value="Dharmendra"/>
+                <StringItem index="5" value="Akshay Kumar"/>
+                <StringItem index="6" value="Ashok Kumar"/>
+                <StringItem index="7" value="Sunil Dutt"/>
+                <StringItem index="8" value="Sanjeev Kumar"/>
+                <StringItem index="9" value="Ajay Devgn"/>
+                <StringItem index="10" value="Naseeruddin Shah"/>
+                <StringItem index="11" value="Anil Kapoor"/>
+                <StringItem index="12" value="Sanjay Dutt"/>
+                <StringItem index="13" value="Vinod Khanna"/>
+                <StringItem index="14" value="Nana Patekar"/>
+                <StringItem index="15" value="Shammi Kapoor"/>
+                <StringItem index="16" value="Sunny Deol"/>
+                <StringItem index="17" value="Mithun Chakraborty"/>
+                <StringItem index="18" value="Johnny Depp"/>
+                <StringItem index="19" value="Al Pacino"/>
+                <StringItem index="20" value="Robert De Niro"/>
+                <StringItem index="21" value="Kevin Spacey"/>
+                <StringItem index="22" value="Russell Crowe"/>
+                <StringItem index="23" value="Angelina Jolie"/>
+                <StringItem index="24" value="Brad Pitt"/>
+                <StringItem index="25" value="Leonardo DiCaprio"/>
+                <StringItem index="26" value="Arnold Schwarzenegger"/>
+                <StringItem index="27" value="Tom Cruise"/>
+                <StringItem index="28" value="Sylvester Stallone"/>
+                <StringItem index="29" value="Morgan Freeman"/>
+                <StringItem index="30" value="Nicolas Cage"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FamousStarJActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="YearJ">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="70">
+                <StringItem index="0" value="Select"/>
+                <StringItem index="1" value="2018"/>
+                <StringItem index="2" value="2017"/>
+                <StringItem index="3" value="2016"/>
+                <StringItem index="4" value="2015"/>
+                <StringItem index="5" value="2014"/>
+                <StringItem index="6" value="2013"/>
+                <StringItem index="7" value="2012"/>
+                <StringItem index="8" value="2011"/>
+                <StringItem index="9" value="2010"/>
+                <StringItem index="10" value="2009"/>
+                <StringItem index="11" value="2008"/>
+                <StringItem index="12" value="2007"/>
+                <StringItem index="13" value="2006"/>
+                <StringItem index="14" value="2005"/>
+                <StringItem index="15" value="2004"/>
+                <StringItem index="16" value="2003"/>
+                <StringItem index="17" value="2002"/>
+                <StringItem index="18" value="2001"/>
+                <StringItem index="19" value="2000"/>
+                <StringItem index="20" value="1999"/>
+                <StringItem index="21" value="1998"/>
+                <StringItem index="22" value="1997"/>
+                <StringItem index="23" value="1996"/>
+                <StringItem index="24" value="1995"/>
+                <StringItem index="25" value="1994"/>
+                <StringItem index="26" value="1993"/>
+                <StringItem index="27" value="1992"/>
+                <StringItem index="28" value="1991"/>
+                <StringItem index="29" value="1990"/>
+                <StringItem index="30" value="1989"/>
+                <StringItem index="31" value="1988"/>
+                <StringItem index="32" value="1987"/>
+                <StringItem index="33" value="1986"/>
+                <StringItem index="34" value="1985"/>
+                <StringItem index="35" value="1984"/>
+                <StringItem index="36" value="1983"/>
+                <StringItem index="37" value="1982"/>
+                <StringItem index="38" value="1981"/>
+                <StringItem index="39" value="1980"/>
+                <StringItem index="40" value="1979"/>
+                <StringItem index="41" value="1978"/>
+                <StringItem index="42" value="1977"/>
+                <StringItem index="43" value="1976"/>
+                <StringItem index="44" value="1975"/>
+                <StringItem index="45" value="1974"/>
+                <StringItem index="46" value="1973"/>
+                <StringItem index="47" value="1972"/>
+                <StringItem index="48" value="1971"/>
+                <StringItem index="49" value="1970"/>
+                <StringItem index="50" value="1969"/>
+                <StringItem index="51" value="1968"/>
+                <StringItem index="52" value="1967"/>
+                <StringItem index="53" value="1966"/>
+                <StringItem index="54" value="1965"/>
+                <StringItem index="55" value="1964"/>
+                <StringItem index="56" value="1963"/>
+                <StringItem index="57" value="1962"/>
+                <StringItem index="58" value="1961"/>
+                <StringItem index="59" value="1960"/>
+                <StringItem index="60" value="1959"/>
+                <StringItem index="61" value="1958"/>
+                <StringItem index="62" value="1957"/>
+                <StringItem index="63" value="1956"/>
+                <StringItem index="64" value="1955"/>
+                <StringItem index="65" value="1954"/>
+                <StringItem index="66" value="1953"/>
+                <StringItem index="67" value="1952"/>
+                <StringItem index="68" value="1951"/>
+                <StringItem index="69" value="1950"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="YearJActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="CategoryJ">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="24">
+                <StringItem index="0" value="Select"/>
+                <StringItem index="1" value="Genre"/>
+                <StringItem index="2" value="Action"/>
+                <StringItem index="3" value="Adventure"/>
+                <StringItem index="4" value="Animation"/>
+                <StringItem index="5" value="Biography"/>
+                <StringItem index="6" value="Comedy"/>
+                <StringItem index="7" value="Crime"/>
+                <StringItem index="8" value="Documentary"/>
+                <StringItem index="9" value="Drama"/>
+                <StringItem index="10" value="Family"/>
+                <StringItem index="11" value="Fantasy"/>
+                <StringItem index="12" value="Film Noir"/>
+                <StringItem index="13" value="History"/>
+                <StringItem index="14" value="Horror"/>
+                <StringItem index="15" value="Music"/>
+                <StringItem index="16" value="Musical"/>
+                <StringItem index="17" value="Mystery"/>
+                <StringItem index="18" value="Romance"/>
+                <StringItem index="19" value="Sci-Fi"/>
+                <StringItem index="20" value="Sport"/>
+                <StringItem index="21" value="Superhero"/>
+                <StringItem index="22" value="Thriller"/>
+                <StringItem index="23" value="War"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CategoryJActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="OR"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="OR"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="B_SaveRecord">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/movie/rental/system/project/Save_24px.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Save Record"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_SaveRecordActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="B_Clear">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/movie/rental/system/project/Erase_24px.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B_ClearActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
