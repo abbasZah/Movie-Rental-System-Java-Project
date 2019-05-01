@@ -1,0 +1,150 @@
+~Data~
+Krish 3
+2010
+*Stars*
+
+*/Stars*
+
+Action
+1000
+~/Data~
+~Data~
+2.0
+2018
+*Stars*
+Rajnikant
+Akshay Kumar
+*/Stars*
+
+Science
+2000
+~/Data~
+~Data~
+Golmaal
+2013
+*Stars*
+Ajay Devgan
+*/Stars*
+
+Comedy
+3000
+~/Data~
+~Data~
+Bhagam Bhaag
+2007
+*Stars*
+Akshay Kumar
+Govinda
+*/Stars*
+
+Comedy
+5000
+~/Data~
+~Data~
+3 Idiots
+2006
+*Stars*
+Amir Khan
+Raju Kumar
+
+*/Stars*
+
+Comedy
+4000
+~/Data~
+~Data~
+Dangal
+2016
+*Stars*
+Amir Khan
+*/Stars*
+
+Action
+900
+~/Data~
+~Data~
+Baahubali 2
+2017
+*Stars*
+Prabhas
+Anushka Shetty
+*/Stars*
+
+Action
+2500
+~/Data~
+~Data~
+PK
+2014
+*Stars*
+Amir Khan
+Anushka Sharma
+*/Stars*
+
+Comedy
+1700
+~/Data~
+~Data~
+Dhoom 3
+2013
+*Stars*
+Amir Khan
+Katrina Kaif
+*/Stars*
+
+Action
+1256
+~/Data~
+~Data~
+Singham
+2015
+*Stars*
+
+Ajay Devgn
+*/Stars*
+
+Action
+3000
+~/Data~
+~Data~
+Race
+2018
+*Stars*
+Salman Khan
+*/Stars*
+
+Adventure
+1000
+~/Data~
+~Data~
+Race
+2014
+*Stars*
+Sharukh Khan
+*/Stars*
+
+Action
+3000
+~/Data~
+~Data~
+Robot
+2003
+*Stars*
+Select
+*/Stars*
+
+Action
+2000
+~/Data~
+~Data~
+Race 3
+2017
+*Stars*
+Salman Khan
+Anil Kapoor
+Anil Kapoor
+*/Stars*
+
+Action
+5985
+~/Data~
