@@ -1,2 +1,2 @@
 # Movie-Rental-System---Project
-A Java Project.
+A Mini GUI Based Java Project.
